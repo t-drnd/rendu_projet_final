@@ -226,8 +226,8 @@ header {
   margin-left: auto;
   margin-top: 50px;
   transition: 0.5s;
-  display: block; /* Assure que le bouton occupe toute la largeur disponible */
-  margin: 0 auto; /* Centre le bouton horizontalement */
+  display: block;
+  margin: 0 auto;
   margin-top: 20px;
 }
 
