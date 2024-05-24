@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
       slide.append(`<h2>${card.name}</h2>`);
       slide.append(`<p>${card.house}</p>`);
 
-      // Créer un élément de lien pour les détails et l'ajouter à la slide
       const detailsLink = $(
         `<a class='card-details-link' href='details.html?id=${card.slug}'>Détails</a>`
       );
